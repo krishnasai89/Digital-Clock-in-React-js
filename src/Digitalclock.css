@@ -14,6 +14,7 @@ align-items: center;
     backdrop-filter: blur(5px);
     width: 100vh;
     padding: 10px 0;
+    animation: slidein 3s;
 }
 .clock{
     color: white;
