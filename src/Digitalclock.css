@@ -22,4 +22,16 @@ align-items: center;
     font-family: monospace;
     text-align: center;
     text-shadow: 3px 3px 5px chocolate;
+    animation: slidein 3s;
+}
+@keyframes slidein {
+    from {
+        translate: 150vw 0;
+        scale: 200% 1;
+    }
+    
+    to {
+        translate: 0 0;
+        scale: 100% 1;
+    }
 }
